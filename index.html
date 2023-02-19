@@ -1,24 +1,44 @@
+<!--Index page to display avaiable recipes-->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>OdinProject Recipe</title>
+        <link rel="stylesheet" href="resources/fonts.css">
+        <link rel="stylesheet" href="resources/index.css">
+        <title id="title">OdinProject Recipe</title>
+        <link rel="icon" type="image/x-icon" href="images/index/favicon.ico">
     </head>
 
     <body>
-        <h1 id="header">OdinProject Recipe</h1>
-        <img src="https://www.hachettebookgroup.com/wp-content/uploads/2017/06/GR.jpg" id="gordan the goat" alt="Gordan Ramsay" style="width: 500px; height: 500px;">
-        <h2>Recipes</h2>
-        <div>
-            <ul>
-                <li>
-                    <a href="recipes/lasagna.html">Lasagna</a>
-                </li>
-                <li>
-                    <a href="recipes/pancakes.html">Pancakes</a>
-                </li>
-            </ul>
+        <div id="middle">
+            <h1 id="header">OdinProject Recipe</h1>
+            <img id="gordon-index" src="resources/images/index/gordan.jpg">
+            <h2 id="recipe">Recipes</h2>
+
+            <div id="div-recipes">
+
+                <button id="lasagna-link" onclick="location.href='recipes/lasagna.html'">
+                  <img id="lasagna" src="resources/images/lasagna.png">
+                </button>
+              
+                <div id="lasagna-hover">
+                    <h3 id="lasagna-heading" style="font-family: 'odin'; font-size: 50px; color: #ada638;">Lasagna</h3>
+                    <p id="lasagna-description" style="font-family: 'Noto Serif', serif; font-size: 24px; color: #616058;">Lasagna is a type of pasta that is made by layering sheets of pasta with a filling between them. The filling is usually a mixture of meat, vegetables, and cheese. Lasagna is usually baked in an oven.</p>
+                </div>
+              
+                <button id="pancake-link" onclick="location.href='recipes/pancakes.html'">
+                  <img id="pancake" src="resources/images/pancake.png">
+                </button>
+              
+                <div id="pancake-hover">
+                    <h3 id="pancake-heading" style="font-family: 'odin'; font-size: 50px; color: #ada638;">Pancake</h3>
+                    <p id="pancake-description" style="font-family: 'Noto Serif', serif; font-size: 24px; color: #616058;">A pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.</p>
+                </div>
+              
+              </div>           
+
+            <a href="#header" id="back-to-top">Back to top</a>
         </div>
-        <a href="#header">Back to top</a>
     </body>
 </html>
