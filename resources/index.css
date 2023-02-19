@@ -76,7 +76,7 @@
     display: none;
     position: absolute;
     top: 15%;
-    left: 1750%;
+    left: 2300%;
   }
   
   #lasagna-link:hover + #lasagna-hover,
@@ -96,7 +96,7 @@
     opacity: 0;
     animation: reveal 1.5s ease-in-out 1s forwards;
   }
-
+  
   
 @keyframes shrink-gordon-index 
 {
